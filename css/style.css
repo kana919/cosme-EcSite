@@ -39,6 +39,7 @@ a:link,a:visited,a:hover,a:active{
 .header-info{
     position: absolute;
     right: 30px;
+    top: 10px;
     display: inline-block;
     margin-top: auto;
     margin-bottom: auto;
@@ -48,6 +49,11 @@ a:link,a:visited,a:hover,a:active{
 /* -------------------
 /*        logo
 /* -------------------*/
+
+.logo-box{
+    display: inline-block;
+    margin-right: 200px;
+}
 
 .logo-first{
     display: inline-block;
@@ -62,10 +68,14 @@ a:link,a:visited,a:hover,a:active{
 /* -------------------
 /*        icon
 /* -------------------*/
+.header-info .search-box{
+    display: inline-block;
+}
 
 .header-info .icon{
     display: inline-block;
     font-size: 2rem;
+    margin-left: 20px;
 }
 
 /* -------------------
@@ -84,6 +94,13 @@ a:link,a:visited,a:hover,a:active{
 
 #global-nav li{
     float: left;
-    width: 150px;
+    width: 120px;
     list-style: none;
+}
+
+#global-nav li:nth-of-type(1),
+#global-nav li:nth-of-type(2)
+{
+    border:1px solid transparent;
+    border-right-color: #c0c0c0;
 }
