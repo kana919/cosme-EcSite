@@ -171,3 +171,29 @@ header{
     font-size: 3.2rem;
     margin-bottom: 0px;
 }
+
+.movie-box-pager {
+    display: block;
+    height: 15px;
+}
+
+.movie-box-pager .box-pager-item{
+    display: inline-block;
+    width: 20px;
+}
+
+.movie-box-pager a{
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    color: #666666;
+    background-color: #666666;
+    font-size: 0;
+}
+
+.movie-box-slider .slider-img-makeup{
+    display: block;
+    animation:1s fadeIn;
+}
